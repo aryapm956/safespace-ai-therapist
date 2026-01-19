@@ -23,20 +23,6 @@ SafeSpace provides:
 -Continuous conversation to explore the root cause of stress
 The system acts as a first-level emotional support tool, especially for students.
 
-System Development Approach:
-The project follows a modular client-server architecture:
-🔹 Frontend
-Built using Streamlit
-Provides a chat-style user interface
-Sends user input to the backend via REST API
-
-🔹 Backend
-Developed using FastAPI
-Handles request validation and AI processing
-Integrates AI logic and tools
-Returns structured responses to the frontend
-Each component is separated to ensure scalability, maintainability, and clarity.
-
 Proposed Solution
 SafeSpace provides:
 -An AI-based virtual therapist that responds empathetically
